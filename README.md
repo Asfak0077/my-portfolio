@@ -18,6 +18,22 @@ This portfolio showcases my projects, skills, and contact information.
 - CSS
 - JavaScript
 
+## ✅ Test Coverage
+
+The codebase now includes unit tests for the main interactive logic in `script.js`, covering:
+
+- Navbar scroll threshold behavior
+- Active section detection behavior
+- Typewriter state transitions (typing, pause, delete, next word)
+- Mobile menu icon state mapping
+- Carousel index wrapping and transform generation
+
+Run tests with:
+
+```bash
+node --test
+```
+
 ## 📂 Projects Included
 
 - Library Management System
