@@ -108,7 +108,10 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 
             navItems.forEach((item) => {
                 item.classList.remove('active');
-                const href = item.getAttribute('href') || '';
+                const href = item.getAttribute('href');
+                if (!href || !href.startsWith('#')) {
+                    return;
+                }
                 if (href.substring(1) === activeSectionId) {
                     item.classList.add('active');
                 }
@@ -144,7 +147,11 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
             this.txt = nextState.txt;
             this.wordIndex = nextState.wordIndex;
             this.isDeleting = nextState.isDeleting;
-            this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+            this.txtElement.textContent = '';
+            const span = document.createElement('span');
+            span.className = 'txt';
+            span.textContent = this.txt;
+            this.txtElement.appendChild(span);
 
             setTimeout(() => this.type(), nextState.typeSpeed);
         }
@@ -191,8 +198,8 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
                 const spans = navToggle.querySelectorAll('span');
-                spans.forEach((span) => {
-                    const style = PortfolioLogic.getNavToggleSpanStyle(0, false);
+                spans.forEach((span, index) => {
+                    const style = PortfolioLogic.getNavToggleSpanStyle(index, false);
                     span.style.transform = style.transform;
                     span.style.opacity = style.opacity;
                 });
