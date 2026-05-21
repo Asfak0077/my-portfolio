@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asfak Rahman H | Full Stack Web Developer</title>
+    <meta name="description" content="Portfolio of Asfak Rahman H, a Computer Science Engineering student and aspiring Full Stack Web Developer specializing in modern web technologies.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS for Scroll Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Asfak<span>.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-item">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#certifications" class="nav-item">Certifications</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#education" class="nav-item">Education</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="Certificate/asfak resume .pdf" class="btn btn-primary resume-btn" download>Resume <i class="fas fa-download"></i></a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h2 class="greeting">Hi there, I'm</h2>
+                <h1 class="name">Asfak Rahman H</h1>
+                <h2 class="title"><span class="type-writer" data-words='["Full Stack Web Developer", "Problem Solver", "CSE Student"]'></span></h2>
+                <p class="tagline">Building modern and scalable web applications.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="Certificate/asfak resume .pdf" class="btn btn-secondary" download>Download Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Asfak0077" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/asfak-rahma07/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-accent"></div>
+    </section>
+
+    <!-- Main Content Containers -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-title">Know Me More</span>
+                    <h2 class="title">About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text" data-aos="fade-right">
+                        <p>I am Asfak Rahman H, a passionate Full Stack Web Developer and Computer Science Engineering student. I specialize in building dynamic, user-centric web applications using modern technologies. My journey in tech is driven by an insatiable curiosity and a deep-rooted desire to solve complex problems through clean, efficient code.</p>
+                        <p>With a solid foundation in both frontend and backend development, I take pride in crafting complete digital experiences—from intuitive user interfaces to robust server-side architectures. Whether I'm tackling algorithms on HackerRank or developing enterprise-grade web solutions, I am always eager to learn, innovate, and push the boundaries of what's possible.</p>
+                        <ul class="highlights">
+                            <li><i class="fas fa-check-circle"></i> Full Stack Web Development</li>
+                            <li><i class="fas fa-check-circle"></i> Generative AI & Tech Innovation</li>
+                            <li><i class="fas fa-check-circle"></i> Algorithmic Problem Solving</li>
+                            <li><i class="fas fa-check-circle"></i> Agile & Collaborative Approach</li>
+                        </ul>
+                    </div>
+                    <div class="about-image" data-aos="fade-left">
+                        <div class="image-card">
+                             <img src="profile.png" alt="Asfak Rahman H" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-title">Tech Stack</span>
+                    <h2 class="title">My Skills</h2>
+                </div>
+                <div class="skills-container" data-aos="fade-up">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+                            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                            <span class="skill-tag"><i class="fas fa-server"></i> Express.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Database</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-database"></i> MongoDB</span>
+                            <span class="skill-tag"><i class="fas fa-table"></i> MySQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                            <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-title">Featured Work</span>
+                    <h2 class="title">My Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Sudoku Solver -->
+                    <div class="project-card glass" data-aos="fade-up">
+                        <div class="project-image">
+                            <i class="fas fa-table-cells"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Sudoku Solver Web App</h3>
+                            <p>A multi-page web application featuring custom game menus, difficulty settings, and an optimized backtracking solver for instant results.</p>
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://sudoku-solver-omega-rouge.vercel.app" target="_blank" class="btn-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Asfak0077/sudoku-solver" target="_blank" class="btn-link">GitHub <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Event Booking System -->
+                    <div class="project-card glass" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Event Booking System</h3>
+                            <p>Full-stack solution for event registration with integrated payment simulation, automated scheduling, and a secure dashboard.</p>
+                            <div class="tech-stack">
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Express</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="btn-link">GitHub <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section bg-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-title">Achievements</span>
+                    <h2 class="title">Certifications</h2>
+                </div>
+                <div class="cert-carousel-container">
+                    <button class="carousel-nav prev" id="certPrev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="cert-carousel-wrapper">
+                        <div class="cert-carousel-track" id="certTrack">
+                            <a href="Certificate/AI basic.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="cert-icon"><i class="fab fa-google"></i></div>
+                                <h3>Google AI Foundation</h3>
+                                <p>View Certificate</p>
+                            </a>
+                            <a href="Certificate/AI generate.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="200">
+                                <div class="cert-icon"><i class="fab fa-google"></i></div>
+                                <h3>Google Generative AI</h3>
+                                <p>View Certificate</p>
+                            </a>
+                            <a href="Certificate/ASFAK RAHMAN INTERNSHIP CERTIFICATE.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="300">
+                                <div class="cert-icon"><i class="fas fa-briefcase"></i></div>
+                                <h3>Web Development Internship</h3>
+                                <p>Dakh Edu Solutions</p>
+                            </a>
+                            <a href="Certificate/Asfak_Rahman_H_Inplant_Certificate.pdf.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="cert-icon"><i class="fas fa-building"></i></div>
+                                <h3>Inplant Training</h3>
+                                <p>View Certificate</p>
+                            </a>
+                            <a href="Certificate/IBMDesign20260206-31-mjzjwm.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="cert-icon"><i class="fab fa-ibm"></i></div>
+                                <h3>IBM Enterprise Design Thinking</h3>
+                                <p>IBM</p>
+                            </a>
+                            <a href="Certificate/Notification Service.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="200">
+                                <div class="cert-icon"><i class="fas fa-bell"></i></div>
+                                <h3>Notification Service</h3>
+                                <p>View Certificate</p>
+                            </a>
+                            <a href="Certificate/amazon dynamodb .pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="300">
+                                <div class="cert-icon"><i class="fab fa-aws"></i></div>
+                                <h3>Amazon DynamoDB</h3>
+                                <p>AWS</p>
+                            </a>
+                            <a href="Certificate/c_sharp_basic certificate.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="cert-icon"><i class="fab fa-hackerrank"></i></div>
+                                <h3>C# Basic</h3>
+                                <p>HackerRank</p>
+                            </a>
+                            <a href="Certificate/oops.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="cert-icon"><i class="fas fa-cube"></i></div>
+                                <h3>Object Oriented Programming</h3>
+                                <p>View Certificate</p>
+                            </a>
+                            <a href="Certificate/problem_solving_basic certificate.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="200">
+                                <div class="cert-icon"><i class="fab fa-hackerrank"></i></div>
+                                <h3>Problem Solving Basic</h3>
+                                <p>HackerRank</p>
+                            </a>
+                            <a href="Certificate/python_basic certificate.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="300">
+                                <div class="cert-icon"><i class="fab fa-hackerrank"></i></div>
+                                <h3>Python Basic</h3>
+                                <p>HackerRank</p>
+                            </a>
+                            <a href="Certificate/Asfak rahman(05)_113223031024.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                                <h3>Certificate of Achievement</h3>
+                                <p>View Certificate</p>
+                            </a>
+                            <a href="Certificate/Asfak_Rahman_H_Inplant _Offer.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="cert-icon"><i class="fas fa-file-contract"></i></div>
+                                <h3>Inplant Training Offer</h3>
+                                <p>View Document</p>
+                            </a>
+                            <a href="Certificate/intenship.pdf" target="_blank" class="cert-card glass" data-aos="zoom-in" data-aos-delay="200">
+                                <div class="cert-icon"><i class="fas fa-briefcase"></i></div>
+                                <h3>Internship Certificate</h3>
+                                <p>View Certificate</p>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="carousel-nav next" id="certNext"><i class="fas fa-chevron-right"></i></button>
+                    <div class="carousel-dots" id="certDots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-title">Career</span>
+                    <h2 class="title">Experience</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Nov 2025 – Dec 2025</div>
+                        <div class="timeline-content glass">
+                            <h3>Web Development Intern</h3>
+                            <h4>DAKH EDU SOLUTIONS</h4>
+                            <p>Contributed to real-world web projects by enhancing both frontend interfaces and backend APIs. Applied core development principles to optimize system performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section bg-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-title">Learning</span>
+                    <h2 class="title">Education</h2>
+                </div>
+                <div class="edu-card glass" data-aos="fade-up">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="edu-info">
+                        <h3>Bachelor of Engineering in CSE</h3>
+                        <h4>Velammal Engineering College</h4>
+                        <div class="edu-stats">
+                            <span><i class="fas fa-star"></i> CGPA: 7.0</span>
+                            <span><i class="fas fa-calendar"></i> 2023 - 2027</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-card glass" data-aos="fade-up" style="margin-top: 2rem;">
+                    <div class="edu-icon"><i class="fas fa-school"></i></div>
+                    <div class="edu-info">
+                        <h3>Secondary School Examinations (X)</h3>
+                        <h4>GK.Matric School, Cuddalore</h4>
+                        <div class="edu-stats">
+                            <span><i class="fas fa-star"></i> Mark: 89.6%</span>
+                            <span><i class="fas fa-calendar"></i> 2022 - 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-title">Contact</span>
+                    <h2 class="title">Get In Touch</h2>
+                </div>
+                <div class="contact-v2" data-aos="fade-up">
+                    <div class="contact-details">
+                        <div class="contact-item glass">
+                            <i class="fas fa-envelope"></i>
+                            <div class="details">
+                                <label>Email</label>
+                                <a href="mailto:asf28146@icloud.com">asf28146@icloud.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item glass">
+                            <i class="fas fa-phone"></i>
+                            <div class="details">
+                                <label>Phone</label>
+                                <a href="tel:+916385750815">+91 63857 50815</a>
+                            </div>
+                        </div>
+                        <div class="contact-item glass">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="details">
+                                <label>Location</label>
+                                <span>Chennai, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-footer-links">
+                        <a href="https://github.com/Asfak0077" target="_blank" class="social-btn glass"><i class="fab fa-github"></i> Github</a>
+                        <a href="https://www.linkedin.com/in/asfak-rahma07/" target="_blank" class="social-btn glass"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer removed -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
